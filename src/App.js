@@ -12,7 +12,7 @@ export default class App extends Component {
       <Layout>
           <Header className="header-color" title="Shayna Rosado" scroll>
             <Navigation>
-              <Link to ="/">Home</Link>
+              <Link to ="/Portfolio/">Home</Link>
               <Link to ="/resume">Resume</Link>
               <Link to ="/projects">Projects</Link>
               <Link to ="/contact">Contact</Link>
