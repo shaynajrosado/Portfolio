@@ -11,7 +11,7 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0) {
             return (
-                <div>
+                <div className="projects-grid">
                     {/* Blue HomeLab App */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
@@ -51,7 +51,7 @@ class Projects extends Component {
             )
         } else if(this.state.activeTab === 1) {
             return (
-                <div>
+                <div className="projects-grid">
                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
                     'url(https://cdn.iconscout.com/icon/free/png-256/laptop-computer-graph-chart-company-statics-performance-1-12459.png) center no-repeat'}}>Professional Portfolio</CardTitle>
@@ -96,13 +96,11 @@ class Projects extends Component {
                     <Tab>Web</Tab>
                 </Tabs>
 
-                <section className="projects-grid">
                     <Grid className="projects-grid">
                         <Cell col={12}>
                             <div className="content">{this.toggleCategories()}</div>                            
                         </Cell>
                     </Grid>
-                </section>
 
             </div>
         )

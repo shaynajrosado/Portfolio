@@ -67,3 +67,7 @@
 .project-link {
   width: 90%;
 }
+
+.projects-grid {
+  display: flex;
+}
