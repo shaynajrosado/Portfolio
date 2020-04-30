@@ -7,14 +7,16 @@ import Projects from './projects';
 import Resume from './resume';
 
 
-const Main = () => (
-    <Switch>
+const Main = () => {
+    return (
+      <Switch>
         <Route exact path='/' component={Landing} />
         <Route path='/aboutme' component={AboutMe} />
         <Route path='/contact' component={Contact} />
         <Route path='/projects' component={Projects} />
         <Route path='/resume' component={Resume} />
-    </Switch>
-)
+      </Switch>
+    );
+}
 
 export default Main;
