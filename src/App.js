@@ -12,11 +12,11 @@ class App extends Component {
       <Layout>
           <Header className="header-color" title="Shayna Rosado" scroll>
             <Navigation>
-              <Link to ="/">Home</Link>
-              <Link to ="/resume">Resume</Link>
-              <Link to ="/projects">Projects</Link>
-              <Link to ="/contact">Contact</Link>
-              <Link to ="/aboutme">About Me</Link>
+              <Link to ="{process.env.PUBLIC_URL}/">Home</Link>
+              <Link to ="{process.env.PUBLIC_URL}/resume">Resume</Link>
+              <Link to ="{process.env.PUBLIC_URL}/projects">Projects</Link>
+              <Link to ="{process.env.PUBLIC_URL}/contact">Contact</Link>
+              <Link to ="{process.env.PUBLIC_URL}/aboutme">About Me</Link>
 
             </Navigation>
           </Header>
