@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
@@ -11,8 +10,9 @@ export default class App extends Component {
       // Uses a header that scrolls with the text, rather than staying locked at the top 
       <div className="demo-big-content">
       <Layout>
-          <Header title="Title" scroll>
+          <Header className="header-color" title="Title" scroll>
             <Navigation>
+              <Link to ="/">Home</Link>
               <Link to ="/resume">Resume</Link>
               <Link to ="/contact">Contact</Link>
               <Link to ="/aboutme">About Me</Link>
@@ -21,6 +21,7 @@ export default class App extends Component {
           </Header>
           <Drawer title="Title">
             <Navigation>
+              <Link to ="/">Home</Link>
               <Link to ="/resume">Resume</Link>
               <Link to ="/contact">Contact</Link>
               <Link to ="/aboutme">About Me</Link>
