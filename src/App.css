@@ -22,6 +22,7 @@
 }
 
 .banner-text {
+  margin-top: 5px;
   background-color: black;
   opacity: .8;
   width: 75%;
@@ -31,7 +32,7 @@
 
 .banner-text h1 {
   text-align: center;
-  font-size: 66px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
@@ -59,6 +60,10 @@
 
 .social-links i {
   color: white;
-  font-size: 5em;
+  font-size: 3em;
   padding: 8px;
+}
+
+.project-link {
+  width: 90%;
 }
