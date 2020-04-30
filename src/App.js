@@ -14,18 +14,19 @@ export default class App extends Component {
             <Navigation>
               <Link to ="/">Home</Link>
               <Link to ="/resume">Resume</Link>
+              <Link to ="/projects">Projects</Link>
               <Link to ="/contact">Contact</Link>
               <Link to ="/aboutme">About Me</Link>
-              <Link to ="/projects">Projects</Link>
+
             </Navigation>
           </Header>
           <Drawer title="Shayna Rosado">
             <Navigation>
               <Link to ="/">Home</Link>
               <Link to ="/resume">Resume</Link>
+              <Link to ="/projects">Projects</Link>
               <Link to ="/contact">Contact</Link>
               <Link to ="/aboutme">About Me</Link>
-              <Link to ="/projects">Projects</Link>
             </Navigation>
           </Drawer>
           <Content>

@@ -9,6 +9,7 @@ class Projects extends Component {
     }
 
     toggleCategories() {
+        {/* Mobile Projects */}
         if(this.state.activeTab === 0) {
             return (
                 <div className="projects-grid">
@@ -30,6 +31,8 @@ class Projects extends Component {
                     </CardMenu>
                 </Card>
                 <br />
+
+                {/* Pinhole App */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
                     'url(https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2019/08/landscape-pinhole.jpg?fit=1500%2C1000&ssl=1) center / cover'}}>Pinhole (Android)</CardTitle>
@@ -38,7 +41,7 @@ class Projects extends Component {
                     </CardText>
 
                     <CardActions border>
-                        <Button className="project-link" href="https://github.com/shaynajrosado/BlueHomeLab/" colored>GitHub</Button>
+                        <Button className="project-link" href="https://github.com/shaynajrosado/PinholeApp/" colored>GitHub</Button>
                         <Button className="project-link" href="https://github.com/kenziedolish/wonderwomen/wiki" colored>Project Wiki</Button>
                     </CardActions>
                     
@@ -49,10 +52,11 @@ class Projects extends Component {
  
                 </div>
             )
-        } else if(this.state.activeTab === 1) {
+        } else if(this.state.activeTab === 1) {     {/* Web Projects */}
             return (
                 <div className="projects-grid">
-               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                {/* Professional Portfolio Web Site */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
                     'url(https://cdn.iconscout.com/icon/free/png-256/laptop-computer-graph-chart-company-statics-performance-1-12459.png) center no-repeat'}}>Professional Portfolio</CardTitle>
                     <CardText>
@@ -68,6 +72,7 @@ class Projects extends Component {
                     </CardMenu>
                 </Card>                   
                 <br />
+                {/* Mackenzie & Me Website */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
                     'url(https://cdn.dribbble.com/users/1572962/screenshots/3746471/dribbble_logo_mom_and_baby.jpg)'}}>Mackenzie and Me</CardTitle>
