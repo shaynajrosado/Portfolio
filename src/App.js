@@ -4,7 +4,7 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       // Uses a header that scrolls with the text, rather than staying locked at the top 
@@ -12,7 +12,7 @@ export default class App extends Component {
       <Layout>
           <Header className="header-color" title="Shayna Rosado" scroll>
             <Navigation>
-              <Link to ="/Portfolio/">Home</Link>
+              <Link to ="/">Home</Link>
               <Link to ="/resume">Resume</Link>
               <Link to ="/projects">Projects</Link>
               <Link to ="/contact">Contact</Link>
@@ -35,6 +35,8 @@ export default class App extends Component {
           </Content>
       </Layout>
     </div>
-    ) 
+    ); 
   }
 }
+
+export default App;

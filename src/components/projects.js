@@ -108,7 +108,7 @@ class Projects extends Component {
                     </Grid>
 
             </div>
-        )
+        );
     }
 }
 
